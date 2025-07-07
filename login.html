@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | CodeCraft MOOC</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .login-form {
+        max-width: 400px;
+        margin: 3rem auto;
+        background: #ecf0f1;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .login-form h3 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+
+      .login-form label {
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
+      .login-form input {
+        width: 100%;
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .login-form button {
+        width: 100%;
+        padding: 0.75rem;
+        background: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      .login-form button:hover {
+        background: #2980b9;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>CodeCraft MOOC</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="about.html">About</a>
+          <a href="login.html">Login</a>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="login-form">
+        <h3>Login ke Akun Anda</h3>
+        <form>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="masukkan email"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="masukkan password"
+            required
+          />
+
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 CodeCraft MOOC. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
